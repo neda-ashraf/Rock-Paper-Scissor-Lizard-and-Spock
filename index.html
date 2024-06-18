@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+        <div id="rules">
+            <h2>Game Rules</h2>
+            <ol>
+                <li>Rock, Paper, Scissors, Lizard, Spock is a game of chance which is an expansion on the game Rock,
+                    Paper,
+                    Scissors. Each player picks a variable and reveals it at the same time.</li>
+                <li>The winner is the one who defeats the others. In a tie, the process is repeated until a winner is
+                    found.
+                </li>
+                <li>Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard, Lizard poisons Spock, Spock smashes
+                    Scissors, Scissors decapitates Lizard, Lizard eats Paper, Paper disproves Spock, Spock vaporizes
+                    Rock,
+                    (and as it always has) Rock crushes Scissors.</li>
+                <li>Each game lasts 10 turns, with the winner declared at the conclusion. Clicking on the Reset button
+                    will reset the game entirely</li>
+            </ol>
+        </div>
+        <p style="font-size: 24px; margin-bottom: 0px;">Select one image</p>
+        <div id="options">
+            <div class="imageDiv" id="rock"><img
+                    src="https://ipfs.filebase.io/ipfs/QmbPVqEKqsfvCdG4i5XrDTTaFqRmhxMo8tSYv7xGfPeWeM" alt="Rock">
+            </div>
+            <div class="imageDiv" id="scissors"><img
+                    src="https://ipfs.filebase.io/ipfs/QmNyfv7R4i8yAVjYcWnm5ZT2mPDWFZe9vLTNVxt98cwRuH" alt="Scissors">
+            </div>
+            <div class="imageDiv" id="paper"><img
+                    src="https://ipfs.filebase.io/ipfs/QmeEsiWUdJGhZFSrXHSChCsRFU9z9fV8cx9WcxajnbxKA3" alt="Paper">
+            </div>
+            <div class="imageDiv" id="lizard"><img
+                    src="https://ipfs.filebase.io/ipfs/QmTPtTKAfrK4N5jzD7Y6cmCa1hhwHouzNaCnuxN6uXeczw" alt="Lizard">
+            </div>
+            <div class="imageDiv" id="spock"><img
+                    src="https://ipfs.filebase.io/ipfs/QmeDQ2xBvem59L1kUpufAgVVWm6hsUcayxymYsy9WsqdFW" alt="Spock">
+            </div>
+        </div>
+
+        <div id="players">
+            <div id="player">
+                <p>You</p>
+                <div id="card">
+                    <img src="https://ipfs.filebase.io/ipfs/QmYnNosdda3wDWRPcRAuGrRQG3LJcQjYHMRdBSNg63FYfJ"
+                        id="image1" />
+                </div>
+                <p>Score</p>
+                <div id="playerScore">0</div>
+            </div>
+            <p>VS</p>
+            <div id="computer">
+                <p>Computer</p>
+                <div id="card">
+                    <img src="https://ipfs.filebase.io/ipfs/QmXHUWUonzaK1tDNkxrtTQi9X1LKNSc1jxMy36Adv5DiPC"
+                        id="image2" />
+                </div>
+                <p>Score</p>
+                <div id="computerScore">0</div>
+            </div>
+        </div>
+
+        <div id="result"></div>
+
+        <button id="reset"><img src="https://ipfs.filebase.io/ipfs/QmdR8KYpvMXCmADEaSkNHA6j7htpLXSXtChKj4RNDNFxx3"
+                alt="">Reset</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
